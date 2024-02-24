@@ -2,14 +2,102 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Level Up</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Level Up</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light tamaño-titulo" href="./index.html">Level Up</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-a-la-derecha" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/analisis.html">Análisis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/videos.html">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/generos.html">Géneros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./pages/contacto.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success text-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide color-fondo-uno">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner posicion">
+              <div class="carousel-item active imagen-centrada">
+                <img src="./img/baldursgate.jpg" class="d-block w-60 mx-auto p-2" alt="Baldurs Gate">
+                <div class="carousel-caption">
+                  <h3>Baldurs Gate III</h3>
+                  <p class="fs-5">El nuevo titán de rol sigue dando de qué hablar</p>
+                </div>
+              </div>
+              <div class="carousel-item imagen-centrada">
+                <img src="./img/finalfantasyrebirth.jpg" class="d-block w-60 mx-auto p-2" alt="Final Fantasy VII">
+                <div class="carousel-caption">
+                  <h3>Final Fantasy VII</h3>
+                  <p class="fs-5">Te contamos todo lo que se viene con la nueva entrega de Square-Enix</p>
+                </div>
+              </div>
+              <div class="carousel-item imagen-centrada">
+                <img src="./img/epicgames.jpg" class="d-block w-60 mx-auto p-2" alt="Epic Games Store">
+                <div class="carousel-caption">
+                  <h3>Epic Games Store</h3>
+                  <p class="fs-5">Los usuarios de Epic Games Store gastaron casi 1000 millones de dólares en la tienda durante
+                    2023</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
