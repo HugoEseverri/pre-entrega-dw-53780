@@ -583,6 +583,60 @@
     box-shadow: 0px 1px 10px rgba(255, 3, 3, 0.863);
 }
 
+/*!----noticia-thelastofus----*/
+
+.color-fondo{
+    background-color: #14141b;
+}
+
+.noticiatlou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.noticiatlou div p{
+    padding:0 70px 0 70px;
+}
+
+.noticiathelastofus{
+    background-color: white;
+    width: 1200px;
+    padding: 160px 100px 20px 100px;
+}
+
+.noticiathelastofus h1{
+    padding: 15px;
+}
+
+.noticiathelastofus h4{
+    padding: 30px;
+}
+.noticiathelastofus img{
+    width: 1000px;
+}
+
+.noticiathelastofus-dos{
+    background-color: white;
+    width: 1200px;
+    padding: 0 100px 20px 100px;
+}
+
+.noticiathelastofus-dos img{
+    width: 1000px;
+}
+
+.noticiathelastofus-tres{
+    background-color: white;
+    width: 1200px;
+    padding: 0 100px 20px 100px;
+}
+
+.noticiathelastofus-tres h2{
+    padding: 10px;
+    text-align: center;
+}
+
+
 
 /*!-------análisis------*/
 
