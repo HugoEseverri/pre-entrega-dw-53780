@@ -606,10 +606,12 @@
 
 .noticiathelastofus h1{
     padding: 15px;
+    text-align: center;
 }
 
 .noticiathelastofus h4{
     padding: 30px;
+    text-align: center;
 }
 .noticiathelastofus img{
     width: 1000px;
