@@ -1067,3 +1067,142 @@
         justify-items: center;
     }
 }
+
+@media (max-width: 1275px) {
+    .w-60 {
+        width: 850px;
+    }
+
+    .container-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        grid-template-areas:
+            "noticia-1 noticia-2"
+            "noticia-3 noticia-4"
+            "noticia-5 noticia-6"
+            "noticia-7 noticia-7";
+        justify-items: center;
+        align-items: center;
+        padding: 0 100px 100px 100px;
+    }
+
+    .container-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        grid-template-areas:
+            "noticiarandom-1 noticiarandom-2"
+            "noticiarandom-3 noticiarandom-4"
+            "noticiarandom-5 noticiarandom-6"
+            "noticiarandom-7 noticiarandom-8";
+        justify-content: center;
+    }
+
+    .analisis-juegos {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .w-60 {
+        width: 600px;
+    }
+
+    .fs-5 {
+        font-size: 16px !important;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .noticia-7 {
+        display: flex;
+        justify-content: center;
+        background-color: #14141bab;
+        border-radius: 9px;
+        flex-direction: column;
+        box-shadow: 0px 1px 10px rgba(255, 3, 3, 0.863);
+        width: 300px;
+    }
+
+    .noticia-7 a img {
+        width: 280px;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .w-60 {
+        width: 500px;
+    }
+
+    .videos article iframe {
+        width: 480px;
+    }
+}
+
+@media (max-width: 520px) {
+    .w-60 {
+        width: 340px;
+    }
+
+    .secundarias div {
+        padding: 0;
+    }
+
+    .container-1 div {
+        width: 300px;
+    }
+
+    .container-1 div a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-1 div a img {
+        width: 280px;
+    }
+
+    .container-1 div a h6 {
+        padding: 5px;
+    }
+
+    .noticia-7 a h6 {
+        font-size: 15px;
+    }
+
+    .container-2 div {
+        width: 300px;
+    }
+
+    .container-2 div a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-2 div a img {
+        width: 280px;
+    }
+
+    .videos article iframe {
+        width: 300px;
+    }
+}
