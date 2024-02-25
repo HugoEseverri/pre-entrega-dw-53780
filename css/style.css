@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*!-----------reset--------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+/*!-----------header------------*/
+
+.tamaño-titulo {
+    font-size: 60px;
+}
+
+.navbar-a-la-derecha {
+    justify-content: flex-end;
+}
+
+/*!-----------main-carousel----------*/
+
+.color-fondo-uno {
+    background-color: #14141b;
+}
+
+.posicion {
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+/*!----------index-noticias----------*/
+
+.titulo {
+    color: white;
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.titulo a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+}
+
+.secundarias {
+
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.secundarias div {
+    padding: 10px;
+
+}
+
+.secundarias div img {
+    width: 325px;
+}
+
+.secundarias div a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "noticia-1 noticia-2 noticia-5 noticia-7"
+        "noticia-3 noticia-4 noticia-6 noticia-7";
+    align-items: baseline;
+}
+
+
+.container-1 div h6 {
+    padding-top: 15px;
+}
+
+.noticia-1 {
+    grid-area: noticia-1;
+    width: 345px;
+    border-radius: 6px;
+    background-color: #14141bab;
+}
+
+.noticia-2 {
+    grid-area: noticia-2;
+    width: 345px;
+    border-radius: 6px;
+    background-color: #14141bab;
+}
+
+
+.noticia-3 {
+    grid-area: noticia-3;
+    width: 345px;
+    border-radius: 6px;
+    background-color: #14141bab;
+}
+
+.noticia-4 {
+    grid-area: noticia-4;
+    width: 345px;
+    border-radius: 6px;
+    background-color: #14141bab;
+}
+
+.noticia-5 {
+    grid-area: noticia-5;
+    width: 345px;
+    border-radius: 6px;
+    background-color: #14141bab;
+}
+
+.noticia-6 {
+    grid-area: noticia-6;
+    width: 345px;
+    border-radius: 6px;
+    background-color: #14141bab;
+}
+
+.noticia-7 {
+    display: flex;
+    justify-content: center;
+    grid-area: noticia-7;
+    background-color: #14141bab;
+    border-radius: 9px;
+    flex-direction: column;
+    box-shadow: 0px 1px 10px rgba(255, 3, 3, 0.863);
+    width: 400px;
+}
+
+.noticia-7 a img {
+    width: 380px;
+}
+
+.hardware {
+    text-align: center;
+    font-size: 25px;
+}
+
+.noticia-7 a h6 {
+    font-size: 20px;
+}
+
+/*!-------index-videos------*/
+
+.titulo-dos {
+    background-color: #14141b;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.titulo-dos a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+}
+
+.videos {
+    background-color: #14141b;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15px 30px 15px;
+}
+
+.videos article {
+    padding: 10px;
+    display: inline-block
+}
+
+.videos article a {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    justify-content: center;
+}
+
+/*!-------index-n-random------*/
+
+.terciarias {
+    background-color: black;
+}
+
+.terciarias a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "noticiarandom-1 noticiarandom-2 noticiarandom-3 noticiarandom-7"
+        "noticiarandom-4 noticiarandom-5 noticiarandom-6 noticiarandom-8";
+    grid-auto-flow: row;
+    justify-items: center;
+    padding: 10px 100px 30px 100px;
+
+
+}
+
+.noticiarandom-1 {
+    grid-area: noticiarandom-1;
+    width: 355px;
+}
+
+.noticiarandom-2 {
+    grid-area: noticiarandom-2;
+    width: 355px;
+}
+
+.noticiarandom-3 {
+    grid-area: noticiarandom-3;
+    width: 355px;
+}
+
+.noticiarandom-4 {
+    grid-area: noticiarandom-4;
+    width: 355px;
+}
+
+.noticiarandom-5 {
+    grid-area: noticiarandom-5;
+    width: 355px;
+}
+
+.noticiarandom-6 {
+    grid-area: noticiarandom-6;
+    width: 355px;
+}
+
+.noticiarandom-7 {
+    grid-area: noticiarandom-7;
+    width: 355px;
+}
+
+.noticiarandom-8 {
+    grid-area: noticiarandom-8;
+    width: 355px;
+}
+
+/*!-------index-análisis------*/
+
+.titulo-dos {
+    background-color: #14141b;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.titulo-dos a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.analisis-juegos {
+    background-color: #14141b;
+}
+
+.analisis-juegos div {
+    padding: 15px;
+}
+
+.analisis-juegos a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
