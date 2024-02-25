@@ -1206,3 +1206,143 @@
         width: 300px;
     }
 }
+
+
+/*!-----------@mediaq---noticias------*/
+
+
+@media (max-width: 1720px) {
+    .container-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "noticiasp-1 noticiasp-2"
+            "noticiasp-3 noticiasp-4"
+            "noticiasp-5 noticiasp-6"
+            "noticiasp-7 noticiasp-8"
+            "noticiasp-9 noticiasp-10"
+            "noticiasp-11 noticiasp-12";
+        justify-items: center;
+        padding: 30px 90px 20px 90px;
+        background-color: #14141b;
+    }
+
+    .container-5 {
+        padding: 0 100px 0 100px;
+    }
+
+    .container-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .secundarias-dos {
+        display: none;
+    }
+
+    .titulo-dos-noticias {
+        padding: 150px 0 10px 0;
+    }
+
+    .container-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hardware-5 {
+        height: 0%;
+    }
+
+    .container-6 div {
+        width: 450px;
+    }
+
+    .container-6 div a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-6 div a img {
+        width: 400px;
+    }
+
+    .container-6 div a h6 {
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 550px) {
+    .titulo-dos-noticias {
+        padding: 150px 0 10px 0;
+    }
+
+    .container-4 {
+        background-color: #14141b;
+    }
+
+    .container-4 div {
+        width: 300px;
+        height: 320px;
+    }
+
+    .container-4 div a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-4 div a img {
+        width: 280px;
+    }
+
+    .container-5 {
+        padding: 0;
+    }
+
+    .container-5 div {
+        width: 300px;
+        height: 320px;
+    }
+
+    .container-5 div a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-5 div a img {
+        width: 280px;
+    }
+
+    .container-6 {
+        padding: 0 0 15px 0;
+    }
+
+    .container-6 div {
+        width: 300px;
+        height: 320px;
+    }
+
+    .container-6 div a img {
+        width: 280px;
+    }
+
+    .hardware-5 {
+        width: 300px;
+        height: 300px;
+        padding: 0 0 10px 0;
+    }
+}
