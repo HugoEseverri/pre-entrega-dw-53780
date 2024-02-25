@@ -614,7 +614,7 @@
     align-items: center;
 }
 
-.ranking article a h6{
+.ranking article a h6 {
     padding: 15px;
 }
 
@@ -730,3 +730,212 @@
     background-color: rgba(0, 0, 0, 0.295);
 }
 
+/*!-------géneros------*/
+
+.generos-texto {
+    background-color: #14141b;
+    padding: 160px 200px 30px 200px;
+}
+
+.generos-texto p {
+    color: white;
+    font-size: 20px;
+}
+
+.generos {
+    background-color: #14141b;
+}
+
+.generos a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.container-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "generos-1 generos-2 generos-3 generos-4"
+        "generos-5 generos-6 generos-7 generos-8"
+        "generos-9 generos-10 generos-11 generos-12";
+}
+
+.container-8 {
+    padding: 30px 250px 30px 250px;
+
+}
+
+.generos-1 {
+    grid-area: generos-1;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-2 {
+    grid-area: generos-2;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-3 {
+    grid-area: generos-3;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-4 {
+    grid-area: generos-4;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-5 {
+    grid-area: generos-5;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-6 {
+    grid-area: generos-6;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-7 {
+    grid-area: generos-7;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-8 {
+    grid-area: generos-8;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-9 {
+    grid-area: generos-9;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-10 {
+    grid-area: generos-10;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-11 {
+    grid-area: generos-11;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.generos-12 {
+    grid-area: generos-12;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+/*!-------géneros-ejemplo-selección-rol------*/
+
+.container-9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "accion-1 accion-2 accion-3"
+        "accion-4 accion-5 accion-6"
+        "accion-7 accion-8 accion-9";
+    justify-items: center;
+}
+
+.container-9 {
+    background-color: black;
+    padding: 30px 150px 30px 150px;
+
+}
+
+.container-9 div a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.container-9 div a p {
+    padding: 15px;
+}
+
+.accion-1 {
+    grid-area: accion-1;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+
+.accion-2 {
+    grid-area: accion-2;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.accion-3 {
+    grid-area: accion-3;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.accion-5 {
+    grid-area: accion-5;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.accion-4 {
+    grid-area: accion-4;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.accion-6 {
+    grid-area: accion-6;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.accion-7 {
+    grid-area: accion-7;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.accion-8 {
+    grid-area: accion-8;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
+
+.accion-9 {
+    grid-area: accion-9;
+    width: 503px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+}
