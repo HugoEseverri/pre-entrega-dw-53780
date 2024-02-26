@@ -1167,6 +1167,14 @@
         width: 600px;
     }
 
+    .carousel-item div h3{
+        display: none;
+    }
+    
+    .carousel-item div p{
+        font-size: 1rem;
+    }
+
     .fs-5 {
         font-size: 16px !important;
     }
@@ -1207,6 +1215,10 @@
     .w-60 {
         width: 500px;
     }
+    
+    .carousel-item div p{
+        font-size: 15px!important;
+    }
 
     .videos article iframe {
         width: 480px;
@@ -1216,6 +1228,10 @@
 @media (max-width: 520px) {
     .w-60 {
         width: 340px;
+    }
+
+    .carousel-item div p{
+        font-size: 13px!important;
     }
 
     .secundarias div {
