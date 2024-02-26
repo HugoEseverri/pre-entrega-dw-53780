@@ -1216,10 +1216,6 @@
     .w-60 {
         width: 500px;
     }
-    
-    .carousel-item div p{
-        font-size: 15px
-    }
 
     .videos article iframe {
         width: 480px;
@@ -1233,11 +1229,7 @@
 
     .carousel-control-next-icon, .carousel-control-prev-icon {
         height: 0;
-    }
-
-    .fs-5 {
-        font-size: 12px !important;
-    }   
+    } 
 
     .secundarias div {
         padding: 0;
