@@ -1489,23 +1489,25 @@
     }
     .contenedor div img{
         width: 350px;
+        padding: 0 0 20px 0g;
     }
 
     .noticiathelastofus h1{
         font-size: 19px;
         font-weight: 600;
-        
     }
 
     .noticiathelastofus h4{
         font-size: 16px;
-
     }
 }
 
 @media (max-width: 550px){
     .noticiathelastofus h1{
         padding-top: 90px;
+    }
+    .noticiatlou p{
+        padding-top: 20px;
     }
 }
 
