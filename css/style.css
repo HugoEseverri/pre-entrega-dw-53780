@@ -589,7 +589,7 @@
     background-color: #14141b;
 }
 
-.noticiatlou{
+.noticiatlou div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1422,5 +1422,98 @@
         width: 300px;
         height: 300px;
         padding: 0 0 10px 0;
+    }
+}
+
+
+/*!-----------@mediaq---noticia-the-last-of-us------*/
+
+
+@media (max-width: 1250px) {
+    .color-fondo{
+        background-color: white;
+    }
+
+    .noticiathelastofus {
+        width: 900px;
+        padding: 0;
+    }
+
+    .noticiathelastofus h1{
+        font-size: 22px;
+        padding-top: 150px;
+    }
+
+    .noticiathelastofus h4{
+        font-size: 19px;
+    }
+    
+    .noticiathelastofus img{
+        width: 700px;
+    }
+
+    .noticiathelastofus-dos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .noticiathelastofus-dos img{
+        width: 700px;
+    }
+    .contenedor div{
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 910px){
+    .contenedor div{
+        width: 600px;
+        padding: 0;
+    }
+
+    .contenedor div img{
+        width: 500px;
+    }
+    .noticiatlou div p {
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .contenedor div{
+        width: 400px;
+    }
+    .contenedor div img{
+        width: 350px;
+    }
+
+    .noticiathelastofus h1{
+        font-size: 19px;
+        font-weight: 600;
+        
+    }
+
+    .noticiathelastofus h4{
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width: 550px){
+    .noticiathelastofus h1{
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 420px){
+    .contenedor div{
+        width: 350px;
+    }
+    .contenedor div img{
+        width: 300px;
     }
 }
